@@ -1,0 +1,36 @@
+/* CSS RESET --> body, margin=0, give default font */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Vriables */
+:root {
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    /*all items come in a row */
+    align-items: center;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo {
+    margin: 10px 34px;
+}
+
+#logo img {
+    height: 56px;
+    width: 34px 45px;
+}
+
+
+/* Navigation Bar: List Styling */
+#navbar ul {
+    display: flex;
+}
+#navbar ul li {
+    color: white;
+}
